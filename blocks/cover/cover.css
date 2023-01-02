@@ -2,8 +2,9 @@
   max-width: 1184px;
   margin: 92px auto;
   background: url(../../images/cover-trains.jpg);
-  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: 0;
+  background-size: contain;
 }
 
 @media screen and (max-width: 768px) {

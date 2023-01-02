@@ -1,16 +1,16 @@
 .lead__title {
   max-width: 720px;
-  max-height: 200px;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   margin: 0 auto;
-  font-family:'Inter-Black', "Arial", sans-serif;
+  font-family:'Inter', "Arial", sans-serif;
 }
 
 @media screen and (max-width: 736px) {
   .lead__title {
     font-size: calc(25px + 56 * (100vw / 1280));
+    line-height: 60px;
   }
 }
 
