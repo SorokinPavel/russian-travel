@@ -7,3 +7,17 @@
   margin: 0 auto;
   font-family:'Inter-Black', "Arial", sans-serif;
 }
+
+@media screen and (max-width: 736px) {
+  .lead__title {
+    font-size: calc(25px + 56 * (100vw / 1280));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+

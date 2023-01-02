@@ -1,6 +1,14 @@
 .place__link {
+  justify-content: center;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
   font-family:'Inter', "Arial", sans-serif;
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    max-width:max-content;
+
+  }
 }
